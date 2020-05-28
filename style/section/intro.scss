@@ -1,0 +1,153 @@
+.section-intro {
+  background: -webkit-linear-gradient(top left, black, rgba(0, 0, 0, 0.5)),
+    url('../accets/images/intro-texture.png') fixed, url('../accets/images/intro-bg.png') fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  @include between;
+  box-sizing: border-box;
+  min-height: 93px;
+  padding-left: 78px;
+  padding-right: 83px;
+  width: 100%;
+}
+
+.logo-header{
+  width: 92px;
+  height: 69px;
+}
+
+.nav-content {
+  @include center;
+}
+
+.nav__list__item {
+  margin-right: 17px;
+  @include center;
+
+  &::after {
+    content: '';
+    margin-left: 17px;
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #fff;
+  }
+
+  &:last-child::after {
+    content: '';
+    width: 0px;
+    height: 0px;
+    display: inline-block;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.nav__list {
+  @include center;
+}
+
+.nav__list__item__link {
+  font-family: ubuntu-medium;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.nav__list__item__link {
+  display: flex;
+  align-items: center;
+}
+
+//button
+
+.button-order {
+  width: 97px;
+  height: 35px;
+  background-color: #e45028;
+  border-radius: 3px;
+  font-family: ubuntu-medium;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #fff;
+  border-style: none;
+}
+
+.intro-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+//intro-content
+
+.intro-content{
+  @include center;
+  width: 78.9%;
+  transform: translateY(-65%);
+  position: absolute;
+  top: 50%
+}
+
+.intro-content__img {
+  position: relative;
+}
+
+.intro-content__pic {
+  width: 417px;
+  height: 424px;
+  margin-right: 17px;
+  background: url("../accets/images/intro-content__img.png") center center / cover no-repeat;
+
+  &::after {
+    content: '';
+    position: absolute;
+    display: block;
+    min-width: 451px;
+    min-height: 241px;
+    top: 69px;
+    left: -25px;
+    background: url('../accets/images/blob.png') center center / cover no-repeat;
+  }
+}
+
+.intro-content_desc{
+  transform: translateY(18%);
+}
+
+.intro-content_desc__title{
+  font-family: gagalin-regular;
+  color: #f9b43b;
+  font-size: 72px;
+}
+
+.intro-content_desc__text{
+  font-family: lifehack-medium;
+  letter-spacing: -1.63px;
+  color: #ffffff;
+  font-size: 65px;
+  line-height: 60px;
+}
+
+.arrow-scroll{
+  display: flex;
+  padding-bottom: 41px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.arrow-scroll_img{
+  background: url("../accets/images/arrow-scroll.png") center center / cover no-repeat;
+  display: inline-block;
+  width: 29px;
+  height: 14px;
+}

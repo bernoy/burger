@@ -1,0 +1,78 @@
+.section-team {
+  background: url("../accets/images/team-bg.png") fixed;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.team-desc__title {
+  font-family: gagalin-regular;
+  font-size: 72px;
+  color: #f9b43b;
+  margin-bottom: 46px; }
+
+.accordeon-list {
+  width: 64.02%; }
+
+.accordeon-list__icon {
+  margin-right: 21px; }
+
+.accordeon-list__person {
+  font-family: gagalin-regular;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 17px; }
+  .accordeon-list__person::before {
+    content: '';
+    display: inline-block;
+    background-image: url("../accets/images/accordeon-arrow-down.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 9px;
+    height: 7px;
+    margin-right: 10px; }
+
+.accordeon-list__item {
+  margin-bottom: 35px; }
+  .accordeon-list__item:last-child {
+    margin-bottom: 0px; }
+
+.container-team {
+  position: relative; }
+
+.team-desc {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 50%;
+  background-color: #2f3234;
+  opacity: 0.93; }
+
+.accordeon-list__desc {
+  height: 0;
+  overflow: hidden;
+  display: flex; }
+
+.active .accordeon-list__desc {
+  height: auto;
+  overflow: hidden; }
+
+.accordeon-list__function {
+  display: flex;
+  flex-direction: column; }
+  .accordeon-list__function h6 {
+    font-family: ubuntu-bold;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 22px; }
+  .accordeon-list__function p {
+    font-family: ubuntu-light;
+    font-size: 14px;
+    color: #c2c3c3; }
+
+/*# sourceMappingURL=team.css.map */

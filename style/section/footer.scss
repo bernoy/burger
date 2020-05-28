@@ -1,0 +1,82 @@
+.footer {
+  width: 100%;
+  height: 60px;
+  background: url('../accets/images/footer-bg-texture.png');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer-content {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.contacs {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.address {
+  display: block;
+  font-family: ubuntu-light;
+  font-size: 14px;
+  color: #fff;
+  line-height: 24px;
+  margin-bottom: 6px;
+}
+
+.number {
+  display: block;
+  font-family: ubuntu-medium;
+  font-size: 14px;
+
+  .number-link {
+    color: #e45028;
+  }
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.social-item {
+  margin-right: 20px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.svg-custom {
+  transition: 0.3s;
+  fill: #fff;
+  opacity: 0.3;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &--vk {
+    width: 23px;
+    height: 18px;
+  }
+  &--fb {
+    width: 20px;
+    height: 20px;
+  }
+  &--tw {
+    width: 20px;
+    height: 20px;
+  }
+  &--inst {
+    width: 20px;
+    height: 16px;
+  }
+}

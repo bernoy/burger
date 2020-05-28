@@ -1,0 +1,72 @@
+//section-webest
+
+.section-webest {
+  background: url('../accets/images/bg-webest.png') fixed;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.webest-title {
+  font-family: gagalin-regular;
+  color: #2f3234;
+  font-size: 72px;
+}
+
+.webest__item__meat {
+  width: 97px;
+  height: 89px;
+  margin-bottom: 33px;
+}
+
+.webest__item__hand {
+  width: 73px;
+  height: 85px;
+  margin-bottom: 34px;
+}
+
+.webest__item__natural {
+  background: url('../accets/images/natural.png') center center / cover no-repeat;
+  width: 88px;
+  height: 75px;
+  margin-bottom: 40px;
+}
+
+.webest__item__title {
+  font-family: lifehack-medium;
+  color: #2f3234;
+  font-size: 24px;
+  letter-spacing: -0.6px;
+  margin-bottom: 20px;
+}
+
+.webest-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.webest__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 71px;
+}
+
+.webest__item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 28.3%;
+  height: 100%;
+  text-align: center;
+
+  p {
+    font-family: ubuntu-light;
+    font-size: 14px;
+    line-height: 24.02px;
+    opacity: 0.8;
+    color: #2f3234;
+  }
+}
